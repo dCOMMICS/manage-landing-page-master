@@ -1,0 +1,13 @@
+body{
+    background: rgb(199, 202, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #f24;
+    width: 200px;
+    height: 300px;
+    border-radius: 80% 80% 20% 20%;
+}
