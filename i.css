@@ -1,7 +1,39 @@
 /*  */
-
-div{
+body {
+    background: -moz-repeating-linear-gradient(217deg, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jef{
+    position: absolute;
+    left: 120px;
+    top: 70px;
     width: 100px;
-    height: 100px;
+    height: 120px;
     background: #ddf;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+}
+
+.hef {
+    position: absolute;
+    left: 100px;
+    top: 190px;
+    width: 80px;
+    height: 40px;
+    background: #ddf;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+}
+
+.kah {
+    position: absolute;
+    left: 120px;
+    top: 190px;
+    width: 80px;
+    height: 40px;
+    background: #ddf;
+    border-bottom-left-radius: 9999px;
+    /* border-bottom-right-radius: 9999px; */
 }
