@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.jef{
+/* .jef{
     position: absolute;
     left: 120px;
     top: 70px;
@@ -35,5 +35,14 @@ body {
     height: 40px;
     background: #ddf;
     border-bottom-left-radius: 9999px;
-    /* border-bottom-right-radius: 9999px; */
+    /* border-bottom-right-radius: 9999px; 
+} */
+
+.item-1{
+    width: 108px;
+    height: 120px;
+    background: beige repeat scroll;
+    border-top-right-radius: 9999px;
+    position: absolute;
+    left: 100px;
 }
