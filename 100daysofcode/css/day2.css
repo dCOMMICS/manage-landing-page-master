@@ -77,3 +77,30 @@ font-family: 'Indie Flower', cursive;
 font-family: 'Shadows Into Light', cursive;
 
 https://fonts.google.com/?classification=Handwriting */
+
+h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #f76a37;
+}
+.projects-area {
+    gap: 20px;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.projects-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 18px;
+    border-radius: 5px;
+    border: 1px solid #2d2d2d;
+    transition: border .2s ease;
+    font-size: 14px;
+    height: 150px;
+    background-color: #1c1c1c;
+    box-shadow: 0 2px 3px #0000003d;
+}
