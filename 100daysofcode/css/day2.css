@@ -78,6 +78,9 @@ font-family: 'Shadows Into Light', cursive;
 
 https://fonts.google.com/?classification=Handwriting */
 
+
+/* styling place hidden on html file 
+
 h2 {
     font-family: 'Gloria Hallelujah', cursive;
     color: #f76a37;
@@ -109,4 +112,36 @@ h2 {
     gap: 10px;
     display: flex;
     flex-direction: column;
+}
+
+*/
+
+.box-1{
+    background-color: #0a5238;
+    height: 80px;
+    width: 100px;
+    padding: 20px;
+    border: 10px solid #f76a37;
+}
+
+.box-2{
+    background-color: #f76a37;
+    height: 80px;
+    width: 100px;
+    padding: 20px;
+    border: 10px solid #0a5238;
+}
+
+h4{
+    color: #f76a37;
+     font-family: 'Gloria Hallelujah', cursive;
+}
+
+.lk {
+    color: #0a5238;
+    text-decoration: underline;
+}
+
+.iu {
+    color: #d5e1e1;
 }
