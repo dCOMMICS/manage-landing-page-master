@@ -32,6 +32,7 @@ body {
 .res1 {
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 h1 {
