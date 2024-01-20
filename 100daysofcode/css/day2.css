@@ -45,6 +45,19 @@ ul {
   
 }
 
+.loc {
+    color: #252525;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h3 {
+    color: #f76a37;
+     font-family: 'Gloria Hallelujah', cursive;
+}
+.ike {
+     font-family: 'Gloria Hallelujah', cursive;
+}
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
