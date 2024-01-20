@@ -122,15 +122,17 @@ h2 {
     width: 100px;
     padding: 20px;
     border: 10px solid #f76a37;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.box-2{
+/* .box-2{
     background-color: #f76a37;
     height: 80px;
     width: 100px;
     padding: 20px;
     border: 10px solid #0a5238;
-}
+} */
 
 h4{
     color: #f76a37;
