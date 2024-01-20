@@ -104,3 +104,9 @@ h2 {
     background-color: #1c1c1c;
     box-shadow: 0 2px 3px #0000003d;
 }
+
+.projects-wrapper {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
