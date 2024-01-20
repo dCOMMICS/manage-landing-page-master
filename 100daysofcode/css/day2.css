@@ -116,6 +116,14 @@ h2 {
 
 */
 
+.area {
+    display: flex;
+    gap: 5.2px;
+}
+.area2{
+    display: flex;
+    gap: 5.2px;
+}
 .box-1{
     background-color: #0a5238;
     height: 80px;
@@ -123,7 +131,7 @@ h2 {
     padding: 20px;
     border: 10px solid #f76a37;
     display: flex;
-    justify-content: flex-end;
+    
 }
 
 /* .box-2{
