@@ -15,6 +15,15 @@ body {
     padding: 0;
     margin: 0;
 }
+.navbar{
+    padding: 8px;
+    margin: 0;
+}
+
+.logocraig{
+    height: 47px;
+    
+}
 
 .res{
     width: 100%;
@@ -121,6 +130,8 @@ h2 {
 .area {
     display: flex;
     gap: 5.2px;
+    width: 100%;
+    height: auto;
 }
 .area2{
     display: flex;
