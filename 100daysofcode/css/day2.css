@@ -25,6 +25,17 @@ body {
     
 }
 
+.about-me {
+    display: flex;
+}
+.descprition{
+    width: 50%;
+}
+
+.amephoto{
+    width: 50%;
+}
+
 .res{
     width: 100%;
     height: auto;
