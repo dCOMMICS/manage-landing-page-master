@@ -10,6 +10,10 @@
 
 }
 
+body {
+    color: #d5e1e1;
+}
+
 .res{
     width: 100%;
     height: auto;
@@ -17,11 +21,31 @@
 
 h1 {
     text-align: center;
+    color: #f79cff;
     font-family: 'Gloria Hallelujah', cursive;
+    width: 100%;
+    height: auto;
+}
+p {
+    /* color: #252525; */
+    color: #0a5238;
+}
+ul {
+    color: #0a5238;
+   
+}
+
+ a {
+    color: #0a5238;
+    text-decoration: none;
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Shadows Into Light', cursive;
+  
 }
 
 
 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
 
 /* @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
 
