@@ -27,11 +27,19 @@ body {
 
 .about-me {
     display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
 }
 .descprition{
     width: 50%;
     padding: 0 8px;
 }
+
+.para {
+    margin-top: 0;
+}
+
 
 .amephoto{
     width: 50%;
