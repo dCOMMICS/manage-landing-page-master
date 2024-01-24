@@ -1,46 +1,8 @@
-.iem-1{
-    position: relative;
+.box-1 {
     width: 200px;
     height: 200px;
-    background-color: #0a3;
-    top: 100px; 
-    left: 0px;
-    bottom: 0px;
+    background: color #d1d141; ;
+    position: fixed;
+    top: 100px;
+    left: 100px;
 }
-
-.iem-2{
-    position: absolute;
-    width: 600px;
-    background-color: #f14;
-}
-/* 
-.iem-3{
-    position: absolute;
-    width: 200px;
-    background-color: #0a3;
-}
-
-.iem-4{
-    position: absolute;
-    width: 200px;
-    height: 210px;
-    background-color: #0a3;
-}
-
-.iem-5{
-    position: absolute;
-    width: 200px;
-    background-color: #0a3;
-}
-
-.iem-6{
-    position: absolute;
-    width: 200px;
-    background-color: #0a3;
-}
-
-.iem-7{
-    position: absolute;
-    width: 200px;
-    background-color: #0a3;
-} */
