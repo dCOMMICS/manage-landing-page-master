@@ -24,6 +24,7 @@
 .wrapper {
     background-color: bit  black;
     /* overflow: auto; */
+    width: 50%;
 
 }
 
@@ -33,7 +34,7 @@
 }
 .box:nth-child(1){
     background-color: #2227f7;
-    float: left;
+    float: right;
 }
 
 .box:nth-child(2){
