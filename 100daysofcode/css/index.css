@@ -40,8 +40,18 @@ body {
     background-color: var(--clr-rgba);
     border: 10px solid var(--clr-accent);
     align-items: center;
+    border-radius: 5px;
+
+    /* transition-property: transform;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+
+    transition: all 0.7s ease;
 }
 
 .btn:hover {
     transform: translateY(-10px);
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
 }
