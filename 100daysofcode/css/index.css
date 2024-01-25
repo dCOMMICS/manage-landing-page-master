@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,800&display=swap');
+
+:root {
+  --clr-dark: #070a12;
+  --clr-light: #f9f9fb;
+  --clr-accent: #f43f70;
+  --clr-rgba: rgba(244, 63, 112, 0.2);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+    font-family: 'Newsreader', serif;
+
+}
+
+.btn {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: var(--clr-accent);
+    background-color: var(--clr-rgba);
+    border: 10px solid var(--clr-accent);
+}
+
+.btn:hover {
+    transform: translateY(-10px);
+}
