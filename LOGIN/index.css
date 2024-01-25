@@ -1,3 +1,8 @@
-body{
-    background-image: url(/100daysofcode/img/Temi\ Coker\ -\ \(157\)\ Pinterest\ –\ SAVEE.jpeg);
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,50,0.8), rgba(0,0,50,0.8)), url(/100daysofcode/img/jumping.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
