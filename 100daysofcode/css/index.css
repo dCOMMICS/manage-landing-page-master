@@ -18,6 +18,20 @@
 
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  word-spacing: 1.4px;
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
 .btn {
     font-size: 2rem;
     font-weight: 700;
@@ -25,6 +39,7 @@
     color: var(--clr-accent);
     background-color: var(--clr-rgba);
     border: 10px solid var(--clr-accent);
+    align-items: center;
 }
 
 .btn:hover {
