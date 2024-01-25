@@ -67,14 +67,16 @@ body {
 
     }
 .yahoo-boy {
-    animation-name: slideInLeft;
+    /* animation-name: slideInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-in;
     animation-delay: 0.95s ;
     animation-iteration-count: 1;
     animation-direction: normal;
     
-    -o-animation-fill-mode: none;
+    -o-animation-fill-mode: none; */
+
+    animation: slideInLeft 1s ease-in 0.95s 1 both;
 
     transform: translateX(-150px);
 }
