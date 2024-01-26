@@ -17,16 +17,23 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 31px;
+    /* background-color: #4646af; */
 }
 .navbar {
     margin: 31px;
 }
-
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 250px;
+    grid-gap: 10px;
+}
 header h1 {
      display: inline-block;
      font-family: 'Roboto', sans-serif;
      font-weight: 300;
      margin: 0 24px 0 0;
+     font-size: 27px;
 
 }
 
@@ -39,7 +46,7 @@ nav {
 .links a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 23px;
     margin: 0 8px;
     font-family: 'Young Serif', serif; 
 }
@@ -56,11 +63,14 @@ a.active {
     object-fit: cover;
 }
 
-h2 {
+.card h2 {
     display: inline-block;
+    margin: 7px 0 0 0;
 }
 
 .card {
-    width: 40%;
+    width: 49.89%;
     display: inline-block;
+    box-sizing: border-box;
+    padding: 17px;
 }
