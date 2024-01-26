@@ -74,3 +74,33 @@ a.active {
     box-sizing: border-box;
     padding: 17px;
 }
+.about {
+    width: 37px;
+    min-width: 600px;
+    margin: 91px 0 29px 49px;
+    font-family: 'Young Serif', serif; 
+}
+
+.about h3 {
+    font-size: 39px;
+    font-weight: 300;
+}
+
+.contact {
+    margin: 99px 0 0 0;
+}
+.ft {
+    border-bottom: 5px solid #d9ed5d ;
+    display: inline-block;
+    padding-bottom: 7px;
+    margin-top: 0 0 0 0;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 17px;
+}
+
+img:hover {
+    opacity: 0.9;
+}
