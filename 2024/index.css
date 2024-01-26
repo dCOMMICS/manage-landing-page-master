@@ -50,11 +50,15 @@ nav {
     margin: 0 8px;
     font-family: 'Young Serif', serif; 
 }
+/* a {
+    text-decoration-thickness: 1em;
+} */
 
 a.active {
     padding: 1px;
     /* text-decoration: underline; */
     border-bottom: 5px solid #d9ed5d ;
+    text-decoration-thickness: 1em;
 }
 
 .card img {
