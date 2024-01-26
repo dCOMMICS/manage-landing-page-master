@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+     display: inline-block;
+
+}
+
+nav {
+    display: inline-block;
+}
+.links li {
+    display: inline-block;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0 8px;
+    font-family: 'Young Serif', serif; 
+}
