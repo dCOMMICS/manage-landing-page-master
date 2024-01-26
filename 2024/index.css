@@ -1,15 +1,32 @@
+/* :root {
+  --clr-dark: #d9ed5d;
+  --clr-light: #b0cd00;
+  --clr-accent: #a8a8ff;
+  --clr-rgba: #4646af;
+  --clr-more: #0c0c1b;
+} */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-h1 {
+/* h1 {
     font-family: 'Roboto', sans-serif;
-}
+    font-weight: 300;
+} */
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 31px;
+}
+.navbar {
+    margin: 31px;
 }
 
 header h1 {
      display: inline-block;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     margin: 0 24px 0 0;
 
 }
 
@@ -25,4 +42,10 @@ nav {
     font-size: 20px;
     margin: 0 8px;
     font-family: 'Young Serif', serif; 
+}
+
+a.active {
+    padding: 1px;
+    /* text-decoration: underline; */
+    border-bottom: 5px solid #d9ed5d ;
 }
