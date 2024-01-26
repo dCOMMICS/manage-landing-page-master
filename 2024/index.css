@@ -49,3 +49,7 @@ a.active {
     /* text-decoration: underline; */
     border-bottom: 5px solid #d9ed5d ;
 }
+
+img {
+    width: 40%;
+}
