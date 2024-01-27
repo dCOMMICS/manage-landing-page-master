@@ -18,9 +18,11 @@ html,body {
     background-color: red;
     display: flex;
     align-items: center;
+    position: fixed;
     justify-content: flex-start;
     padding: 0 150px;
     gap: 50px;
+    z-index: 99;
 }
 
 .nav img{
@@ -30,4 +32,11 @@ html,body {
 .nav h4 {
     text-transform: uppercase;
     font-weight: 500;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
 }
