@@ -15,7 +15,7 @@ html,body {
 .nav{
     height: 150px;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     position: fixed;
@@ -42,5 +42,5 @@ video {
 }
 
 .main{
-    
+
 }
