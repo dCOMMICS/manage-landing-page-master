@@ -60,11 +60,18 @@ video {
     flex-direction: column;
     text-align: center;
 }
-
+.page1 h1::before {
+    content: "EAT. DRINK. PLAY.";
+    position: absolute;
+    color: black;
+    top: -4px;
+    left: -4px;
+}
 .page1 h1{
     font-size: 140px;
     font-weight: 900;
-    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 .page1 h2{
