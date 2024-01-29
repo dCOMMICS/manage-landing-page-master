@@ -42,5 +42,18 @@ video {
 }
 
 .main{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.45);
 
+}
+
+.page1{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
