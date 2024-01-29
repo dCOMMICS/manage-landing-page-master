@@ -1,3 +1,14 @@
+
+
+document.addEventListener("mousemove", function(dets) {
+    // console.log(dets.y)
+
+})
+
+
+
+
+
 gsap.to(".nav",{
     backgroundColor:"#000",
     height: "120px",
@@ -19,8 +30,8 @@ gsap.to(".main",{
         trigger:".main",
         scroller:"body",
         // markers:true
-        start:"top -30vh",
-        end:"top -80vh",
+        start:"top -25%",
+        end:"top -70%",
         scrub:2
     }
    
