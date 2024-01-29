@@ -100,8 +100,8 @@ video {
 }
 
 .cursor {
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     background-color: #95c11e;
     border-radius: 50%;
     position: fixed;
@@ -109,12 +109,12 @@ video {
 }
 
 .cursor-blur {
-    height: 300px;
-    width: 300px;
-    background-color: #96c11e3c;
+    height: 400px;
+    width: 400px;
+    background-color: #96c11e2b;
     border-radius: 50%;
     position: fixed;
-    filter: blur(30px);
+    filter: blur(50px);
     /* z-index: 99; */
 
 }
