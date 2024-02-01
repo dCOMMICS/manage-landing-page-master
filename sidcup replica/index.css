@@ -140,4 +140,7 @@ video {
     display: inline-block;
     font-size: 140px;
     font-weight: 900;
+    font-family: 'gilroy';
+    margin-right: 10px;
+    -webkit-text-stroke: 2px #95c11e;
 }
