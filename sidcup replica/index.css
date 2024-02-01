@@ -1,206 +1,235 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #fff;
-    font-family: 'montserrat-bold', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'montserrat-bold', sans-serif;
 }
 
-html,body {
-    height: 100%;
-    width: 100%;
-
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
-.nav{
-    height: 150px;
-    width: 100%;
-    /* background-color: red; */
-    display: flex;
-    align-items: center;
-    position: fixed;
-    justify-content: flex-start;
-    padding: 0 150px;
-    gap: 50px;
-    z-index: 99;
+.nav {
+  height: 150px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  position: fixed;
+  justify-content: flex-start;
+  padding: 0 150px;
+  gap: 50px;
+  z-index: 99;
 }
 
-.nav img{
-    height: 75px;
+.nav img {
+  height: 75px;
 }
 
 .nav h4 {
-    text-transform: uppercase;
-    font-weight: 500;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 video {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: fixed;
-    z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
 }
 
-.main{
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.45);
-
+.main {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.45);
 }
 
-.page1{
-    height: 100vh;
-    position: relative;
-    width: 100%;
-    /* background-color: red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    z-index: 10;
+.page1 {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  z-index: 10;
 }
 .page1 h1::before {
-    content: "EAT. DRINK. PLAY.";
-    position: absolute;
-    color: black;
-    top: -6px;
-    left: -6px;
-    -webkit-text-stroke: 2px #95c11e;
-    z-index: -1;
+  content: 'EAT. DRINK. PLAY.';
+  position: absolute;
+  color: black;
+  top: -6px;
+  left: -6px;
+  -webkit-text-stroke: 2px #95c11e;
+  z-index: -1;
 }
-.page1 h1{
-    font-size: 140px;
-    font-weight: 900;
-    position: relative;
-    /* font-family: 'Montserrat', sans-serif; */
+.page1 h1 {
+  font-size: 140px;
+  font-weight: 900;
+  position: relative;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
-.page1 h2{
-    font-size: 32px;
-    font-weight: 800;
-    margin: 10px 20px 0 0;
+.page1 h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 10px 20px 0 0;
 
-    /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .page1 p {
-    font-size: 20px;
-    font-weight: 500;
-    width: 40%;
-
+  font-size: 20px;
+  font-weight: 500;
+  width: 40%;
 }
 
-.page2{
-    height: 100vh;
-    width: 100%;
-    z-index: 10;
+.page2 {
+  min-height: 100vh;
+  width: 100%;
+  z-index: 10;
 }
 
 .cursor {
-    height: 30px;
-    width: 30px;
-    background-color: #95c11e;
-    border-radius: 50%;
-    position: fixed;
-    z-index: 99;
+  height: 30px;
+  width: 30px;
+  background-color: #95c11e;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99;
 }
 
 .cursor-blur {
-    height: 400px;
-    width: 400px;
-    background-color: rgba(150, 193, 30, 0.3);
-    border-radius: 50%;
-    position: fixed;
-    filter: blur(80px);
-    /* z-index: 99; */
-    z-index: 9;
-    /* transition: all linear 0.4s; */
-
+  height: 400px;
+  width: 400px;
+  background-color: rgba(150, 193, 30, 0.3);
+  border-radius: 50%;
+  position: fixed;
+  filter: blur(80px);
+  /* z-index: 99; */
+  z-index: 9;
+  /* transition: all linear 0.4s; */
 }
 
-.scroller{
-    /* background: red; */
-    white-space: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    position: relative;
-    z-index: 10;
+.scroller {
+  /* background: red; */
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  z-index: 10;
 }
 
-
-.scroller-in{
-    display: inline-block;
-    white-space: nowrap;
-    animation-name: scroll;
-    animation-duration: 20s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+.scroller-in {
+  display: inline-block;
+  white-space: nowrap;
+  animation-name: scroll;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 /* .scroller-in-2{
     display: inline-block;
     white-space: nowrap;
 } */
 
-.scroller::-webkit-scrollbar{
-    display: none;
+.scroller::-webkit-scrollbar {
+  display: none;
 }
 
 .scroller h4 {
-    display: inline-block;
-    font-size: 120px;
-    font-weight: 900;
-    transition: all linear 0.4;
-    /* font-family: 'gilroy'; */
-    margin-right: 10px;
-    color: transparent;
-    -webkit-text-stroke: 2px #95c11e;
+  display: inline-block;
+  font-size: 120px;
+  font-weight: 900;
+  transition: all linear 0.4;
+  /* font-family: 'gilroy'; */
+  margin-right: 10px;
+  color: transparent;
+  -webkit-text-stroke: 2px #95c11e;
 }
 
 .scroller h4:hover {
-    color: #95c11e;
+  color: #95c11e;
 }
 @keyframes scroll {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-100%);
-    }
-    
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 .about-us {
-    height: 40vh;
-    width: 100%;
-    display: flex;
-    padding: 0.50px;
-    align-items: center;
-    position: relative;
-    justify-content: space-around;
-    z-index: 10;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  padding: 0.5px;
+  align-items: center;
+  position: relative;
+  justify-content: space-around;
+  z-index: 10;
 }
 .about-us img {
-    height: 220px;
-    width: 220px;
-    border-radius: 20%;
-    object-fit: cover;
+  height: 220px;
+  width: 220px;
+  border-radius: 20%;
+  object-fit: cover;
 }
 
 .about-us-in {
-    width: 50%;
-    text-align: center;
+  width: 50%;
+  text-align: center;
 }
 
 .about-us-in h3 {
-    font-size: 50px;
-    font-weight: 800;
-    margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 30px;
 }
 
 .about-us-in p {
-    font-size: 20px;
-    line-height: 26px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.cards-container {
+  /* background-color: red; */
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  gap: 50px;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
+
+.card {
+  height: 80%;
+  width: 28%;
+  background-color: blue;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+#card1 {
+  background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-toptracer-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+
+}
+
+#card2 {
+  background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/hero-4-1024x1024.jpg?strip=all&lossy=1&sharp=1&ssl=1);
+}
+
+#card3 {
+  background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-lessons-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
 }
