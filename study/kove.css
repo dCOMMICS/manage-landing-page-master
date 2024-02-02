@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    overflow: hidden;
+}
 section{
     height: 100vh;
     width: 100vw;
@@ -16,9 +21,25 @@ section{
 
 .section-2{
     background-color: #dfe4e5;
+    
+     /* font-family: 'Young Serif', serif;  */
+}
+
+.section-2 span a {
+    text-decoration: none;
+}
+.section-2 h2{
+     font-family: 'Young Serif', serif; 
+     font-size: 47px;
 }
 
 .main-wrapper{ 
     display: flex;
     
+}
+
+.section-3{
+    background-color: #002432;
+    margin-top: -100vh;
+    position: relative;
 }
