@@ -17,6 +17,7 @@ section{
 
 .section-1{
     background-color: #f78837;
+    display: flex;
 }
 
 .section-2{
@@ -47,4 +48,19 @@ section{
     background-color: #002432;
     margin-top: -100vh;
     position: relative;
+}
+
+.box1{
+    width: 65%;
+}
+
+.box2{
+    width: 35%;
+}
+
+img{
+    min-height: 300px;
+    height: auto;
+    width: 200px;
+    object-fit: cover;
 }
