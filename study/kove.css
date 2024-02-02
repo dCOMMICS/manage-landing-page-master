@@ -28,6 +28,11 @@ section{
 .section-2 span a {
     text-decoration: none;
 }
+
+.text-green-400 {
+    --tw-text-opacity: 1;
+    color: rgb(74, 222, 128/var(--tw-text-opacity ));
+}
 .section-2 h2{
      font-family: 'Young Serif', serif; 
      font-size: 47px;
