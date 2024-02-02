@@ -16,7 +16,7 @@ section{
 }
 
 .section-1{
-    background-color: #f78837;
+    /* background-color: #f78837; */
     display: flex;
 }
 
@@ -69,5 +69,6 @@ img{
 }
 
 .name {
-    font-size: 150px;
+    font-size: 170px;
+    font-family: 'Young Serif', serif; 
 }
