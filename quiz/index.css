@@ -43,3 +43,19 @@ body {
 input{
     margin-right: 1vw;
 }
+
+.submit_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh 0;
+}
+
+.submit_btn button {
+    width: 8vw;
+    height: 4vh;
+    background: #b35050;
+    color: aliceblue;
+    border: none;
+    border-radius: 57px;
+}
