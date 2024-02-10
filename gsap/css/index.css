@@ -31,6 +31,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
+    z-index: 9999999;
 }
 header>img{
     width: 100px;
@@ -84,3 +85,52 @@ header .btn-grp {
 
 /* main */
 
+.main {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.page{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #122315;
+    padding-top: 150px;
+}
+
+.page .heading1{
+    font-size: 9.5vw;
+    text-align: center;
+    color: #f3eded;
+    font-family: Anton-Regular;
+    
+}
+
+.page .heading2{
+    font-size: 9.5vw;
+    text-align: center;
+    color: #55dd4a;
+    font-family: Anton-Regular;
+    
+}
+
+.page>p {
+    font-size: 18px;
+    text-align: center;
+    font-family: Anton-Regular;
+    color: #f3ede4;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+
+.page .imgDiv{
+    width: 100%;
+    height: 50vh;
+    /* look for photo later */
+    background: url();
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -100px;
+}
