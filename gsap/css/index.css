@@ -134,3 +134,75 @@ header .btn-grp {
     background-size: cover;
     margin-top: -100px;
 }
+
+/* page-2 */
+
+.page-2 {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f3ede4;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.page-2>h1{
+    text-align: center;
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 7vw;
+    font-weight: 900;
+    line-height: .8em;
+    font-family: Anton-Regular;
+    width: auto;
+}
+
+.page-2>p {
+    font-size: 18px;
+    text-align: center;
+    font-family: Anton-Regular;
+    line-height: 140%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.page-2>img {
+    width: 150px;
+    height: 150px;
+    z-index: 9999;
+
+}
+
+.page-2 .demo1 {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    opacity: 1;
+}
+
+.page-2 .demo2 {
+    position: absolute;
+    top: 60px;
+    right:100px ;
+    opacity: 1;
+}
+
+.page-2 .demo3 {
+    position: absolute;
+    bottom: 110px;
+    left: 100px;
+    opacity: 1;
+}
+
+.page-2 .demo4 {
+    position: absolute;
+    bottom: 60px;
+    right: 160px;
+    opacity: 1;
+}
+.page-2 .demo5 {
+    position: absolute;
+    top: 240px;
+    right: 40px;
+    opacity: 1;
+}
