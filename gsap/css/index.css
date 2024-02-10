@@ -71,5 +71,13 @@ header .btn-grp {
     font-family: Anton-Regular;
 }
 .fund-me {
-    
+    background-color: #55dd4a;
+    color: #122315;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Anton-Regular;
 }
