@@ -103,6 +103,7 @@ header .btn-grp {
     text-align: center;
     color: #f3eded;
     font-family: Anton-Regular;
+    opacity: 0;
     
 }
 
@@ -111,6 +112,7 @@ header .btn-grp {
     text-align: center;
     color: #55dd4a;
     font-family: Anton-Regular;
+    opacity: 0;
     
 }
 
@@ -177,14 +179,14 @@ header .btn-grp {
     position: absolute;
     top: 40px;
     left: 10px;
-    opacity: 1;
+    opacity: 0;
 }
 
 .page-2 .demo2 {
     position: absolute;
     top: 60px;
     right:100px ;
-    opacity: 1;
+    opacity: 0;
 }
 
 .page-2 .demo3 {
